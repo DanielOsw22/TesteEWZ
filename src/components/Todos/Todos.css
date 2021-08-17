@@ -1,0 +1,30 @@
+div{color: white;}
+
+.todoMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.todoTitle{
+    padding-left: 5%;
+}
+.todoItems{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.todoItem {
+    width: 20%;
+    margin: 1%;
+    padding: 0.5%;
+    border-radius: 5%;
+
+    background-color: rgb(59, 59, 59);
+}
+
+.completed {
+    width: 20%;
+    height: 10px;
+    border-radius: 10%;
+}
